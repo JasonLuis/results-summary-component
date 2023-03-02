@@ -29,5 +29,8 @@
       #2f2ce9 100%
     );
   }
+  @media (max-width: $breakpoint-sm) {
+    width: 100%;
+  }
 }
 </style>

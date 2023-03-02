@@ -1,7 +1,10 @@
 <template>
-  <div class="summary_reaction row items-center">
-    <q-icon :name="`img: ${getImageToShow(props.icon)}`"></q-icon>
-    <div class="summary-description">{{ props.description }}</div>
+  <div class="summary_reaction row items-center justify-between">
+    <div class="row">
+      <q-icon :name="`img: ${getImageToShow(props.icon)}`"></q-icon>
+      <div class="summary-description">{{ props.description }}</div>
+    </div>
+
     <div class="summary-score">{{ props.score }}<span> / 100</span></div>
   </div>
 </template>
@@ -39,6 +42,7 @@ const color = computed(() => {
   height: 56px;
   border-radius: 12px;
   padding-left: 16px;
+  padding-right: 10px;
   background: linear-gradient(
       0deg,
       rgba(255, 255, 255, 0.95),
@@ -63,6 +67,9 @@ const color = computed(() => {
   }
   &:deep(.summary-score span) {
     opacity: 0.5;
+  }
+  @media (max-width: $breakpoint-sm) {
+    width: 100%;
   }
 }
 

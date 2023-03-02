@@ -160,5 +160,9 @@ import UiButton from '../BtnContinue/BtnContinue.vue';
     line-height: 31px;
     color: #303b59;
   }
+  @media (max-width: $breakpoint-sm) {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 }
 </style>
