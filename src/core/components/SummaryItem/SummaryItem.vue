@@ -1,10 +1,7 @@
 <template>
   <div class="summary_reaction row items-center justify-between">
     <div class="row">
-      <q-icon
-        :name="`img: ${getImageToShow(props.icon)}`"
-        :alt="`image that correspondsto ${props.description}`"
-      ></q-icon>
+      <q-icon :name="`img: ${getImageToShow(props.icon)}`"></q-icon>
       <div class="summary-description">
         {{ props.description }}
       </div>
