@@ -4,7 +4,7 @@
     class="row justify-center items-center"
     role="body"
   >
-    <q-page-container role="main">
+    <q-page-container>
       <router-view />
     </q-page-container>
   </q-layout>

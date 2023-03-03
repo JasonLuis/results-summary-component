@@ -2,12 +2,12 @@
   <div class="summary_reaction row items-center justify-between">
     <div class="row">
       <q-icon :name="`img: ${getImageToShow(props.icon)}`"></q-icon>
-      <div class="summary-description" role="contentinfo">
+      <div class="summary-description" role="subinfo">
         {{ props.description }}
       </div>
     </div>
 
-    <div class="summary-score" role="contentinfo">
+    <div class="summary-score" role="score">
       {{ props.score }}<span> / 100</span>
     </div>
   </div>
