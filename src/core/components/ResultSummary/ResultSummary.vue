@@ -1,5 +1,5 @@
 <template>
-  <q-card class="no-shadow q-pa-none">
+  <q-card class="no-shadow q-pa-none" role="banner">
     <q-card-section class="row q-pa-none">
       <div class="col-lg-6 col-xs-12 result q-pa-none column items-center">
         <div class="result-text text-center full-width">Your Result</div>
