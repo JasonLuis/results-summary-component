@@ -1,9 +1,5 @@
 <template>
-  <q-layout
-    view="hHh lpR fFf"
-    class="row justify-center items-center"
-    role="body"
-  >
+  <q-layout view="hHh lpR fFf" class="row justify-center items-center">
     <q-page-container>
       <router-view />
     </q-page-container>
